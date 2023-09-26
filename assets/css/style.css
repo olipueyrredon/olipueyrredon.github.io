@@ -182,6 +182,7 @@ section {
 .header.header-scrolled {
   background: #fff;
   padding: 15px 0;
+  border: 1px solid #000000;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
@@ -729,10 +730,7 @@ box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
 }
 
-.features .feature-box:hover i {
-  background: #000000;
-  color: #fff;
-  border: 1px solid #000000;
+
 }
 
 .features .feture-tabs {
@@ -2332,7 +2330,7 @@ box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
 }
 
 .footer .footer-top {
-  background: rgb(255, 255, 255) /*-- url(../img/footer-bg.png) no-repeat right top;--*/
+  background: #000000
   background-size: contain;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000000;
